@@ -30,7 +30,7 @@ const routes: Routes = [
 
   { path: 'contacts', component: ContactListComponent },
 
-  { path: 'contact/:id, component: ContactComponent' },
+  { path: 'contact/:id', component: ContactComponent },
 
   { path: 'counters', component: CountersComponent },
 
