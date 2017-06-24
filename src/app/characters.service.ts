@@ -14,7 +14,7 @@ export class CharactersService {
     .then(myApiString => myApiString.json())
   }
 
-  postCharacter(CharacterInfo) {
+  postCharacter(characterInfo) {
     const headers = new Headers({ 'Content-Type': 'application/json' });
     const options = { headers: headers };
 
