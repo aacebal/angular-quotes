@@ -15,6 +15,7 @@ import { ChuckNorrisPageComponent } from './chuck-norris-page/chuck-norris-page.
 import { QuoteItemComponent } from './quote-item/quote-item.component';
 
 import { CharactersService } from './characters.service';
+import { JokesComponent } from './jokes/jokes.component';
 
 const routes: Routes = [
   // http://localhost:4200/quotes
@@ -37,7 +38,9 @@ const routes: Routes = [
 
   { path: 'counters', component: CountersComponent },
 
-  { path: 'chuck', component: ChuckNorrisPageComponent }
+  { path: 'chuck', component: ChuckNorrisPageComponent },
+
+  { path: 'jokes', component: JokesComponent}
 ]
 
 @NgModule({
@@ -50,7 +53,8 @@ const routes: Routes = [
     ContactComponent,
     CountersComponent,
     ChuckNorrisPageComponent,
-    QuoteItemComponent
+    QuoteItemComponent,
+    JokesComponent
   ],
   imports: [
     BrowserModule,
